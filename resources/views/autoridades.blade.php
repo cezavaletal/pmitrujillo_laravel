@@ -25,7 +25,6 @@
 
                     <div class="post-block">
                         <div class="row ">
-                            <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
                                     <a><img src="images/ing-heyner.jpg" alt="" class="img-responsive"></a>
@@ -39,11 +38,9 @@
                                   <a href="https://www.linkedin.com/in/heynerninaquispe/"  target="_blank"class="btn btn-default">Linkedin</a></div>
                             </div>
                         </div>
-                        <!-- /.post block -->
                     </div>
                     <div class="post-block">
                         <div class="row ">
-                            <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
                                     <a href="#"><img src="images/ing-grober.jpg" alt="" class="img-responsive"></a>
@@ -57,11 +54,9 @@
                                     <a href="#" class="btn btn-default">Linken.in</a> </div>
                             </div>
                         </div>
-                        <!-- /.post block -->
                     </div>
                     <div class="post-block">
                         <div class="row ">
-                            <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
                                     <a ><img src="images/ing-madrid.jpg" alt="" class="img-responsive"></a>
@@ -75,11 +70,9 @@
                                     <a href="https://www.linkedin.com/in/jos%C3%A9-luis-madrid-renter%C3%ADa-4752a824/" target="_blank" class="btn btn-default">Linkedin</a> </div>
                             </div>
                         </div>
-                        <!-- /.post block -->
                     </div>
                     <div class="post-block">
                         <div class="row ">
-                            <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
                                     <a ><img src="images/ing-ballon.jpg" alt="" class="img-responsive"></a>
@@ -93,11 +86,9 @@
                                     <a href="https://www.linkedin.com/in/jos%C3%A9-luis-ball%C3%B3n-ball%C3%B3n-42267b3b/" target="_blank" class="btn btn-default">Linkedin</a> </div>
                             </div>
                         </div>
-                        <!-- /.post block -->
                     </div>
                     <div class="post-block">
                         <div class="row ">
-                            <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
                                     <a href="#"><img src="images/ing-brenda.jpg" alt="" class="img-responsive"></a>
@@ -111,11 +102,9 @@
                                     <a href="https://www.linkedin.com/in/brenda-lileth-yupanqui-garc%C3%ADa-8b7926102/" class="btn btn-default" target="_blank">Linken.in</a> </div>
                             </div>
                         </div>
-                        <!-- /.post block -->
                     </div>
                     <div class="post-block">
                         <div class="row ">
-                            <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
                                     <a ><img src="images/ing-ever.jpg" alt="" class="img-responsive"></a>
@@ -129,7 +118,6 @@
                                     <a href="https://www.linkedin.com/in/evert-vladimir-gutierrez-sandoval-1b186032/" target="_blank" class="btn btn-default">Linken.in</a> </div>
                             </div>
                         </div>
-                        <!-- /.post block -->
                     </div>
                   </div>
 
@@ -158,7 +146,6 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <div class="post-block post-quote">
                           <div class="row ">
-                              <!-- post block -->
                               <div class="col-md-12">
                                   <div class="quote-content">
                                       <blockquote>“Un líder es mejor cuando la gente apenas sabe que existe,
@@ -166,7 +153,6 @@
                                          cumplida, ellos dirán: Lo hicimos nosotros”</blockquote>
                                   </div>
                               </div>
-                              <!-- /.post block -->
                           </div>
                       </div>
                   </div>

@@ -50,7 +50,6 @@
           </div>
       </div>
        <div class="space-small bg-primary">
-          <!-- call to action -->
           <div class="container">
               <div class="row">
                   <div class="col-lg-8 col-sm-7 col-md-8 col-xs-12">

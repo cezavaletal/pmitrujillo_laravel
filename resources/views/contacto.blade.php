@@ -35,7 +35,7 @@
 
                       <div class="widget widget-contact">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9394.238859426308!2d-79.041046085499!3d-8.122761037344349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcc9df42dd0f598f!2sColegio+de+Ingenieros+de+La+Libertad!5e0!3m2!1ses-419!2spe!4v1510514386630" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-                          <!-- widget search -->
+                         
                           <h3 class="widget-title">Información</h3>
                           <address>
                               <strong>Colegio de  de La Libertad</strong>
@@ -50,7 +50,7 @@
                               <a href="mailto:#">pmitrujillo@cip.com.pe</a>
                           </address>
                       </div>
-                      <!-- /.widget search -->
+                      
                       <div class="widget widget-social">
                           <div class="social-circle">
                               <a href="#" class="#"><i class="fa fa-facebook"></i></a>

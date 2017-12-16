@@ -10,15 +10,12 @@
     <meta name="description" content="Comunidad PMI Trujillo">
     <meta name="keywords" content="Comunidad PMI Trujillo">
     <title>Comunidad PMI Trujillo</title>
-
-    <!-- Bootstrap 
-    <link href="css/bootstrap.min.css" rel="stylesheet">-->
     <link href="{{asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <!-- Google Fonts -->
+   
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i%7cMontserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <!-- Font Awesome -->
+    
     <link href="{{asset('css/font-awesome.min.css') }}" rel="stylesheet">
-    <!-- Style -->
+    
     <link href="{{asset('css/style.css') }}" rel="stylesheet">
 </head>
 
@@ -70,10 +67,10 @@
 
     @foreach($footer as $footer)
   <div class="footer">
-          <!-- footer-->
+          
           <div class="container">
               <div class="footer-block">
-                  <!-- footer block -->
+                  
                   <div class="row">
                       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                           <div class="footer-widget">
@@ -87,7 +84,7 @@
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                           <div class="footer-widget footer-social">
-                              <!-- social block -->
+                        
                               <h2 class="widget-title">Redes Sociales</h2>
                               <ul class="listnone">
                                   <li>
@@ -101,11 +98,11 @@
                                   </li>
                               </ul>
                           </div>
-                          <!-- /.social block -->
+                          
                       </div>
                       <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                           <div class="footer-widget widget-newsletter">
-                              <!-- newsletter block -->
+                
                               <h2 class="widget-title">Newsletters</h2>
                                 <p>{{$footer->Newsletters}}</p>
                               <div class="input-group">
@@ -114,36 +111,34 @@
                               <button class="btn btn-default" type="button">Suscríbete</button>
                               </span>
                               </div>
-                              <!-- /input-group -->
+
                           </div>
-                          <!-- newsletter block -->
+                         
                       </div>
                   </div>
                   <div class="tiny-footer">
-                      <!-- tiny footer block -->
+                      
                       <div class="row">
                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <div class="copyright-content">
-                                  <p>all rights reserved</p>
+                                  <p>Eduardo Zavaleta León @ 2017 Dorsay Todos los Derechos Reservados</p>
                               </div>
                           </div>
                       </div>
                   </div>
-                  <!-- /.tiny footer block -->
+                  
               </div>
-              <!-- /.footer block -->
+              
           </div>
       </div>
-      <!-- /.footer-->
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     @endforeach
       <script src="{{asset('js/jquery.min.js')}}"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="{{asset('js/bootstrap.min.js')}} "></script>
       <script src="{{asset('js/menumaker.js ')}} "></script>
       <!-- sticky header -->
       <script src="{{ asset('js/jquery.sticky.js') }}"></script>
       <script src="{{ asset('js/sticky-header.js') }}"></script>
   </body>
-   @endforeach
+ 
 
   </html>

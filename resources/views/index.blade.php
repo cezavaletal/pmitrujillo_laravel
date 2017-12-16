@@ -51,20 +51,20 @@ Construya una red profesional </p>
             <div class="row">
                 <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                     <div class="section-title mb40 text-center">
-                        <!-- section title start-->
+               
                         <h1>Membresía</h1>
                     </div>
-                    <!-- /.section title start-->
+                   
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="post-block">
                         <div class="row ">
-                            <!-- post block -->
+                            
                             <div class="col-md-6">
                                 <div class="post-img">
-                                    <a href="#"><img src="images/foto6.jpg" alt="" class="img-responsive"></a>
+                                    <a href="#"><img src="images/foto4.jpg" alt="" class="img-responsive"></a>
                                 </div>
                             </div>
                             <div class="col-md-6">

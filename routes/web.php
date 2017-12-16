@@ -15,7 +15,8 @@ Route::get('autoridades', function () {
     $subcategoria1=App\MenuPrincipal::where('estado', '=', 2)->get();
     $subcategoria2=App\MenuPrincipal::where('estado', '=', 3)->get();
     $footer=App\Footer::where('estado', '=', 1)->get();
-    return view('autoridades',compact('categorias','subcategoria1','subcategoria2','footer'));
+    $logo=App\Logo::where('estado', '=', 1)->get();
+    return view('autoridades',compact('categorias','subcategoria1','subcategoria2','footer','logo'));
 });
 
 Route::get('beneficios', function () {
@@ -23,7 +24,8 @@ Route::get('beneficios', function () {
     $subcategoria1=App\MenuPrincipal::where('estado', '=', 2)->get();
     $subcategoria2=App\MenuPrincipal::where('estado', '=', 3)->get();
     $footer=App\Footer::where('estado', '=', 1)->get();
-    return view('beneficios',compact('categorias','subcategoria1','subcategoria2','footer'));
+    $logo=App\Logo::where('estado', '=', 1)->get();
+    return view('beneficios',compact('categorias','subcategoria1','subcategoria2','footer','logo'));
 });
 
 Route::get('contacto', function () {
@@ -31,7 +33,8 @@ Route::get('contacto', function () {
     $subcategoria1=App\MenuPrincipal::where('estado', '=', 2)->get();
     $subcategoria2=App\MenuPrincipal::where('estado', '=', 3)->get();
     $footer=App\Footer::where('estado', '=', 1)->get();
-    return view('contacto',compact('categorias','subcategoria1','subcategoria2','footer'));
+    $logo=App\Logo::where('estado', '=', 1)->get();
+    return view('contacto',compact('categorias','subcategoria1','subcategoria2','footer','logo'));
 });
 
 
@@ -40,7 +43,8 @@ Route::get('historia', function () {
     $subcategoria1=App\MenuPrincipal::where('estado', '=', 2)->get();
     $subcategoria2=App\MenuPrincipal::where('estado', '=', 3)->get();
     $footer=App\Footer::where('estado', '=', 1)->get();
-    return view('historia',compact('categorias','subcategoria1','subcategoria2','footer'));
+    $logo=App\Logo::where('estado', '=', 1)->get();
+    return view('historia',compact('categorias','subcategoria1','subcategoria2','footer','logo'));
 });
 
 Route::get('membresias', function () {
@@ -48,35 +52,40 @@ Route::get('membresias', function () {
     $subcategoria1=App\MenuPrincipal::where('estado', '=', 2)->get();
     $subcategoria2=App\MenuPrincipal::where('estado', '=', 3)->get();
     $footer=App\Footer::where('estado', '=', 1)->get();
-    return view('membresias',compact('categorias','subcategoria1','subcategoria2','footer'));
+    $logo=App\Logo::where('estado', '=', 1)->get();
+    return view('membresias',compact('categorias','subcategoria1','subcategoria2','footer','logo'));
 });
 Route::get('organizacion', function () {
     $categorias=App\MenuPrincipal::where('estado', '=', 1)->get(); 
     $subcategoria1=App\MenuPrincipal::where('estado', '=', 2)->get();
     $subcategoria2=App\MenuPrincipal::where('estado', '=', 3)->get();
     $footer=App\Footer::where('estado', '=', 1)->get();
-    return view('organizacion',compact('categorias','subcategoria1','subcategoria2','footer'));
+    $logo=App\Logo::where('estado', '=', 1)->get();
+    return view('organizacion',compact('categorias','subcategoria1','subcategoria2','footer','logo'));
 });
 Route::get('presentacion', function () {
     $categorias=App\MenuPrincipal::where('estado', '=', 1)->get(); 
     $subcategoria1=App\MenuPrincipal::where('estado', '=', 2)->get();
     $subcategoria2=App\MenuPrincipal::where('estado', '=', 3)->get();
     $footer=App\Footer::where('estado', '=', 1)->get();
-    return view('presentacion',compact('categorias','subcategoria1','subcategoria2','footer'));
+    $logo=App\Logo::where('estado', '=', 1)->get();
+    return view('presentacion',compact('categorias','subcategoria1','subcategoria2','footer','logo'));
 });
 Route::get('tipos', function () {
     $categorias=App\MenuPrincipal::where('estado', '=', 1)->get(); 
     $subcategoria1=App\MenuPrincipal::where('estado', '=', 2)->get();
     $subcategoria2=App\MenuPrincipal::where('estado', '=', 3)->get();
     $footer=App\Footer::where('estado', '=', 1)->get();
-    return view('tipos',compact('categorias','subcategoria1','subcategoria2','footer'));
+    $logo=App\Logo::where('estado', '=', 1)->get();
+    return view('tipos',compact('categorias','subcategoria1','subcategoria2','footer','logo'));
 });
 Route::get('voluntariado', function () {
     $categorias=App\MenuPrincipal::where('estado', '=', 1)->get(); 
     $subcategoria1=App\MenuPrincipal::where('estado', '=', 2)->get();
     $subcategoria2=App\MenuPrincipal::where('estado', '=', 3)->get();
     $footer=App\Footer::where('estado', '=', 1)->get();
-    return view('voluntariado',compact('categorias','subcategoria1','subcategoria2','footer'));
+    $logo=App\Logo::where('estado', '=', 1)->get();
+    return view('voluntariado',compact('categorias','subcategoria1','subcategoria2','footer','logo'));
 });
 Route::get('blog', function () {
     $categorias=App\MenuPrincipal::where('estado', '=', 1)->get(); 
